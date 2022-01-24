@@ -52,3 +52,22 @@ const num = Number('11');
 console.log(num);
 */
 
+//function declaration
+function calcAge1(birthYear) {
+  return 2037 - birthYear;
+}
+
+const age1 = calcAge1(1986);
+console.log(age1);
+//function expression
+const calcAge2 = function (birthYear) {   // this is an example of an anonomyous function where the above was names calcAge1. in this case an expression is created with the anonomyous function, and the value of that function is scored into calcAge2, ultimately being the name of the function executed. 
+  return 2037 - birthYear;
+}
+
+const age2 = calcAge2(1986);
+
+console.log(age1, age2)
+
+// two different types of functions, with the same reuslts, but will have different needs at times. 
+// you can call a function delcaration before you define it (might not be a good idea) while you cannot do that for a function expression(initialization error)
+
