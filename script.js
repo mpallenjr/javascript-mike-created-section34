@@ -51,7 +51,7 @@ console.log(Number('23')); // dont forget there are built in functions also!
 const num = Number('11');
 console.log(num);
 */
-
+/*
 //function declaration
 function calcAge1(birthYear) {
   return 2037 - birthYear;
@@ -70,4 +70,4 @@ console.log(age1, age2)
 
 // two different types of functions, with the same reuslts, but will have different needs at times. 
 // you can call a function delcaration before you define it (might not be a good idea) while you cannot do that for a function expression(initialization error)
-
+*/
